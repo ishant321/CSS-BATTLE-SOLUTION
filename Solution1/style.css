@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto auto auto;
+    background-color: rgb(160, 160, 160);
+}
+
+.first{
+    width: 70%;
+    height: 90%; 
+    padding: auto;   
+}
+
+.second{
+    width: 25%;
+    height: 87%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -40px;
+    border-radius: 15px;
+}
+
+.first-1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.first-2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.first-1-1{
+    width: 70%;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: rgb(105, 18, 175);
+}
+
+.first-1-2{
+    width: 20%;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: rgb(64, 79, 121);
+    padding: 10px;
+}
+
+.first-2-1{
+    width: 20%;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.first-2-2{
+    width: 70%;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: rgb(49, 49, 58);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 5px 25px;
+}
+
+.logo-img img{
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+.logo-text{
+    position: relative;
+    left: 0;
+    margin: auto auto auto 0px; 
+    font-weight: 600;
+    color: rgb(228, 228, 228);
+}
+
+.text{
+    width: 95%;
+    margin: auto;
+    color: rgb(228, 228, 228);
+}
+
+.text p{
+    font-size: 15px;
+}
+
+.first-2-1 p {
+    color: black;
+}
+
+.first-2-1 h3{
+    color: black;
+}
+
+.first-2-1 .logo-text{
+    color: black; 
+}
+
+.second p {
+    color: black;
+}
+
+.second h3{
+    color: black;
+}
+
+.second .logo-text{
+    color: black; 
+}
+
+.status{
+    font-size: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.first-1-1 .status{
+    color: white
+}
+
+.first-1-2 .status{
+    color: white
+}
+
+.first-2-2 .status{
+    color: white
+}
+
+/* @media only screen and (max-width: 1247px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .first-1-1{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .first-2{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    } */
+
+}
