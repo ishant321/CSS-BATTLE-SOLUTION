@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-card{
+    margin: 20px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 22%;
+}
+
+#discount{
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0px auto auto;
+}
+
+.img img{
+    height: 300px;
+}
+
+.img{
+    border-bottom: 1px solid black;
+}
+
+.prod-name-price{
+    display: flex;
+    flex-direction: row;
+    margin: 15px; 
+}
+
+.prod-name{
+    margin-right: 30px;
+}
+
+.prod-price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.main-price{
+    font-size: 1.1em;
+    color: purple
+}
+
+.size{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.size input{
+    margin: 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.tag-quantity{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.tag{
+    margin: auto auto auto 15px;
+    background-color: rgb(255, 139, 158);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.quantity{
+    margin: auto 0px auto auto;
+}
+
+.btn{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-1{
+    width: 45%;
+    margin: 10px;
+    height: 30px;
+    background-color: rgb(209, 209, 37);
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-2{
+    width: 45%;
+    margin: 10px;
+    height: 30px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 15px;
+}
